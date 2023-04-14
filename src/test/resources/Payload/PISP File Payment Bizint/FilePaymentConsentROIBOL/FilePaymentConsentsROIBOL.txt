@@ -1,0 +1,16 @@
+{ "filePaymentMetadata":{
+  
+ "initiationInformation":{
+	"requestAuthType":"$-{requestAuthType}",
+         "hashValue1":"$-{hashValue1}",
+         "filename":"$-{filename}",
+         "fileType":"$-{fileType}",
+	 "remittanceReference":"$-{remittanceReference}",
+	 "unstructured":"$-{unstructured}",
+         "requesControlsum":"$-{requesControlsum}",
+	 "requestNumberOfTransaction":"$-{requestNumberOfTransaction}",
+         "localInstrument":"$-{localInstrument}",
+         "requestedExecutionDate":"$-{requestedExecutionDate}"
+      }
+ }
+}
