@@ -17,9 +17,17 @@ public class ArrayProgram {
 	    	   a[i]=sc.nextInt();
 	       }
 	       System.out.println("-- Printing the elements of the array -- ");
+	       System.out.println();
 	       for(int i=0;i<a.length;i++)
 	       {
 	    	   System.out.print(" "+a[i]);
+	       }
+	       System.out.println();
+	       System.out.println("-- Printing the elements in the reverse order -- ");
+	       System.out.println();
+	       for(int i=a.length-1;i>=0;i--)
+	       {
+	    	   System.out.println(" "+a[i]);
 	       }
 	}
 
